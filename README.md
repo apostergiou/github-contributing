@@ -32,4 +32,5 @@ Start a new branch for your feature/change. Remember to follow the project's nam
 
 ## Resources
 
-See [Free Code Camp](https://github.com/FreeCodeCamp) for a more detailed real world guide.
+- See [Free Code Camp](https://github.com/FreeCodeCamp) for a more detailed real world guide.
+- Must read [guide](https://github.com/FreeCodeCamp/how-to-contribute-to-open-source).
