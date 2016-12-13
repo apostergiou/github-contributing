@@ -1,12 +1,12 @@
 # Contribution Guidelines
 
-1. [Prerequisites](https://github.com/apostergiou/github-contributing/blob/master/README.md#prerequisites)
-2. [Forking the project](https://github.com/apostergiou/github-contributing/blob/master/README.md#forking-the-project)
-3. [Create a branch](https://github.com/apostergiou/github-contributing/blob/master/README.md#create-a-branch)
-4. [Make changes](https://github.com/apostergiou/github-contributing/blob/master/README.md#make-changes)
-5. [Run the tests](https://github.com/apostergiou/github-contributing/blob/master/README.md#run-the-tests)
-6. [Squash your commits](https://github.com/apostergiou/github-contributing/blob/master/README.md#squash-your-commits)
-7. [Create a pull request](https://github.com/apostergiou/github-contributing/blob/master/README.md#create-a-pull-request)
+1. [Prerequisites](#prerequisites)
+2. [Forking the project](#forking-the-project)
+3. [Create a branch](#create-a-branch)
+4. [Make changes](#make-changes)
+5. [Run the tests](#run-the-tests)
+6. [Squash your commits](#squash-your-commits)
+7. [Create a pull request](#create-a-pull-request)
 
 ## Prerequisites
 
