@@ -7,6 +7,7 @@
 5. [Run the tests](#run-the-tests)
 6. [Squash your commits](#squash-your-commits)
 7. [Create a pull request](#create-a-pull-request)
+8. [Garden your branches](#garden-your-branches)
 
 ## Prerequisites
 
@@ -34,3 +35,22 @@ Start a new branch for your feature/change. Remember to follow the project's nam
 
 - See [Free Code Camp](https://github.com/FreeCodeCamp) for a more detailed real world guide.
 - Must read [guide](https://github.com/FreeCodeCamp/how-to-contribute-to-open-source).
+
+## Garden your branches
+
+### Renaming your remote feature branch
+
+An easy way to do this is the following:
+
+1) Create a new branch(execute this from your old-branch)
+
+`$ git branch new-branch origin/old-branch`
+
+2) Push your branch with its brand new name to origin:
+
+`$ git push origin --set-upstream new-branch`
+
+3) Delete the old branch from origin and the local machine:
+
+`$ git push origin :old-branch`
+`$ git branch -D old-branch`
