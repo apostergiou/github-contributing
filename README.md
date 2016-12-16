@@ -30,12 +30,6 @@ Start a new branch for your feature/change. Remember to follow the project's nam
 
 ## Create a pull request
 
-
-## Resources
-
-- See [Free Code Camp](https://github.com/FreeCodeCamp) for a more detailed real world guide.
-- Must read [guide](https://github.com/FreeCodeCamp/how-to-contribute-to-open-source).
-
 ## Garden your branches
 
 ### Renaming your remote feature branch
@@ -54,3 +48,8 @@ An easy way to do this is the following:
 
 `$ git push origin :old-branch`
 `$ git branch -D old-branch`
+
+## Resources
+
+- See [Free Code Camp](https://github.com/FreeCodeCamp) for a more detailed real world guide.
+- Must read [guide](https://github.com/FreeCodeCamp/how-to-contribute-to-open-source).
