@@ -51,5 +51,9 @@ An easy way to do this is the following:
 
 ## Resources
 
-- See [Free Code Camp](https://github.com/FreeCodeCamp) for a more detailed real world guide.
-- Must read [guide](https://github.com/FreeCodeCamp/how-to-contribute-to-open-source).
+- See [Free Code Camp](https://github.com/FreeCodeCamp/how-to-contribute-to-open-source) for a more detailed real world guide.
+- Github Guides
+  - [Contributing to Open Source on GitHub](https://guides.github.com/activities/contributing-to-open-source/)
+  - [https://guides.github.com/activities/forking/](https://guides.github.com/activities/forking/)
+  - [Be social](https://guides.github.com/activities/socialize/)
+  - [Mastering issues](https://guides.github.com/features/issues/)
