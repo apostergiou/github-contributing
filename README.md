@@ -53,7 +53,7 @@ An easy way to do this is the following:
 
 - See [Free Code Camp](https://github.com/FreeCodeCamp/how-to-contribute-to-open-source) for a more detailed real world guide.
 - Github Guides
-  - [Contributing to Open Source on GitHub](https://guides.github.com/activities/contributing-to-open-source/)
-  - [https://guides.github.com/activities/forking/](https://guides.github.com/activities/forking/)
-  - [Be social](https://guides.github.com/activities/socialize/)
-  - [Mastering issues](https://guides.github.com/features/issues/)
+  - [Contributing to Open Source](https://guides.github.com/activities/contributing-to-open-source/)
+  - [Forking Projects](https://guides.github.com/activities/forking/)
+  - [Be Social](https://guides.github.com/activities/socialize/)
+  - [Mastering Issues](https://guides.github.com/features/issues/)
