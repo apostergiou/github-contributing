@@ -53,3 +53,6 @@ An easy way to do this is the following:
   - [Forking Projects](https://guides.github.com/activities/forking/)
   - [Be Social](https://guides.github.com/activities/socialize/)
   - [Mastering Issues](https://guides.github.com/features/issues/)
+- Begginer's Guides
+  - [General Guide](http://lornajane.net/posts/2010/contributing-to-projects-on-github)
+  - [Beginner's guide](https://akrabat.com/the-beginners-guide-to-contributing-to-a-github-project/)
