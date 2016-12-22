@@ -3,15 +3,13 @@
 1. [Prerequisites](#prerequisites)
 2. [Forking the project](#forking-the-project)
 3. [Create a branch](#create-a-branch)
-4. [Make changes](#make-changes)
-5. [Run the tests](#run-the-tests)
-6. [Squash your commits](#squash-your-commits)
-7. [Create a pull request](#create-a-pull-request)
-8. [Garden your branches](#garden-your-branches)
+4. [Run the tests](#run-the-tests)
+5. [Create a pull request](#create-a-pull-request)
 
 ## Prerequisites
 
 Usually every project has its special guidelines for contributing. Always follow these guidelines.
+If your contribution is relatively big or a feature, first open an issue to discuss this and get approval. Then, start the feature development.
 
 ## Forking the project
 
@@ -22,15 +20,13 @@ Usually every project has its special guidelines for contributing. Always follow
 
 Start a new branch for your feature/change. Remember to follow the project's naming conventions for the feature branch.
 
-## Make changes
-
 ## Run the tests
 
-## Squash your commits
+Make sure your changes don’t break the existing project. Test your changes with the existing suite and if possible add tests for your changes.
 
 ## Create a pull request
 
-## Garden your branches
+Once your commits are squashed into small logical changes, go ahead and open a pull request. Adding a comment describing your feature, will usually help the review process.
 
 ### Renaming your remote feature branch
 
