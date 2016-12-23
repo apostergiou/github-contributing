@@ -34,7 +34,7 @@ git branch refactor-code # remember to respect repo naming conventions for branc
 
 Make sure your changes don’t break the existing project. Test your changes with the existing suite and if possible add tests for your changes.
 
-e.g. (RSpec):
+e.g. [RSpec](https://github.com/rspec/rspec):
   ```shell
   rspec
   ```
