@@ -4,7 +4,8 @@
 2. [Forking the project](#forking-the-project)
 3. [Create a branch](#create-a-branch)
 4. [Run the tests](#run-the-tests)
-5. [Create a pull request](#create-a-pull-request)
+5. [Commit changes](#commit-changes)
+6. [Create a pull request](#create-a-pull-request)
 
 ## Prerequisites
 
@@ -14,19 +15,46 @@ If your contribution is relatively big or a feature, first open an issue to disc
 ## Forking the project
 
 1. [Fork](https://help.github.com/articles/fork-a-repo/) the repository.
+
 2. [Clone](https://help.github.com/articles/cloning-a-repository/) your fork.
+
+  ```shell
+  git@github.com:apostergiou/github-contributing.git
+  ```
 
 ## Create a branch
 
 Start a new branch for your feature/change. Remember to follow the project's naming conventions for the feature branch.
 
+```shell
+git branch refactor-code # remember to respect repo naming conventions for branches
+```
+
 ## Run the tests
 
 Make sure your changes don’t break the existing project. Test your changes with the existing suite and if possible add tests for your changes.
 
+e.g. (RSpec):
+  ```shell
+  rspec
+  ```
+## Commit changes
+
+Commit your changes. Follow the [git-stye-guide](https://github.com/agis-/git-style-guide#commits).
+
+```shell
+git commit -m "Refactor code"
+```
+
 ## Create a pull request
 
 Once your commits are squashed into small logical changes, go ahead and open a pull request. Adding a comment describing your feature, will usually help the review process.
+
+Simply push to origin and use the new pull request button.
+
+```shell
+git push origin refactor-code
+```
 
 ### Renaming your remote feature branch
 
@@ -55,4 +83,5 @@ An easy way to do this is the following:
   - [Mastering Issues](https://guides.github.com/features/issues/)
 - Begginer's Guides
   - [General Guide](http://lornajane.net/posts/2010/contributing-to-projects-on-github)
-  - [Beginner's guide](https://akrabat.com/the-beginners-guide-to-contributing-to-a-github-project/)
+  - [Beginner's Guide](https://akrabat.com/the-beginners-guide-to-contributing-to-a-github-project/)
+  - [Git Style Guide](https://github.com/agis-/git-style-guide)
