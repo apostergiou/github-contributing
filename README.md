@@ -19,7 +19,7 @@ If your contribution is relatively big or a feature, first open an issue to disc
 2. [Clone](https://help.github.com/articles/cloning-a-repository/) your fork.
 
   ```shell
-  git@github.com:apostergiou/github-contributing.git
+  git clone git@github.com:apostergiou/github-contributing.git
   ```
 
 ## Create a branch
