@@ -5,7 +5,8 @@
 3. [Create a branch](#create-a-branch)
 4. [Run the tests](#run-the-tests)
 5. [Commit changes](#commit-changes)
-6. [Create a pull request](#create-a-pull-request)
+6. [Squash commits](#squash-commits)
+7. [Create a pull request](#create-a-pull-request)
 
 ## Prerequisites
 
@@ -44,6 +45,19 @@ Commit your changes. Follow the [git-stye-guide](https://github.com/agis-/git-st
 
 ```shell
 git commit -m "Refactor code"
+```
+
+## Squash commits
+
+```shell
+$ git fetch upstream
+$ git checkout my-feature
+$ git rebase -i upstream/master
+
+# choose squash for all of your commits, except the first one
+# Edit the commit message to make sense, and describe all your changes
+
+$ git push origin my-feature -f
 ```
 
 ## Create a pull request
@@ -85,3 +99,4 @@ An easy way to do this is the following:
   - [General Guide](http://lornajane.net/posts/2010/contributing-to-projects-on-github)
   - [Beginner's Guide](https://akrabat.com/the-beginners-guide-to-contributing-to-a-github-project/)
   - [Git Style Guide](https://github.com/agis-/git-style-guide)
+  - [How to write the perfect pull request](https://github.com/blog/1943-how-to-write-the-perfect-pull-request/)
