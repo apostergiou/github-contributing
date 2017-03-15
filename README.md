@@ -1,12 +1,13 @@
 # Contribution Guidelines
 
-1. [Prerequisites](#prerequisites)
-2. [Forking the project](#forking-the-project)
-3. [Create a branch](#create-a-branch)
-4. [Run the tests](#run-the-tests)
-5. [Commit changes](#commit-changes)
-6. [Squash commits](#squash-commits)
-7. [Create a pull request](#create-a-pull-request)
+- [Prerequisites](#prerequisites)
+- [Forking the project](#forking-the-project)
+- [Upstream and Origin](#upstream-and-origin)
+- [Create a branch](#create-a-branch)
+- [Run the tests](#run-the-tests)
+- [Commit changes](#commit-changes)
+- [Squash commits](#squash-commits)
+- [Create a pull request](#create-a-pull-request)
 
 ## Prerequisites
 
@@ -22,6 +23,23 @@ If your contribution is relatively big or a feature, first open an issue to disc
   ```shell
   git clone git@github.com:apostergiou/github-contributing.git
   ```
+
+## Upstream and Origin
+
+See http://stackoverflow.com/questions/9257533/what-is-the-difference-between-origin-and-upstream-on-github.
+
+- `upstream` generally refers to the original repo that you have forked. Use `upstream` to fetch from the original repo (in order to keep your local copy in sync with the project you want to contribute to).
+
+- `origin` is your fork: your own repo on GitHub, clone of the original repo of GitHub. Use `origin` to pull and push since you can contribute to your own repo.
+
+From the GitHub page:
+
+> When a repo is cloned, it has a default remote called origin that points to your fork on GitHub, not the original repo it was forked from.
+To keep track of the original repo, you need to add another remote named upstream
+
+```shell
+git remote add upstream git://github.com/original-project/repo.git
+```
 
 ## Create a branch
 
